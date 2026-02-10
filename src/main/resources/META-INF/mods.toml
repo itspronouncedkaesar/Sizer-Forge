@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"  # Ensure this matches your Forge version
+
+# The ID of the mod
+modId="sizer"
+
+# The name of the mod
+displayName="Sizer Forge"
+
+# A description of what the mod does
+description="A mod that allows resizing of player models"
+
+# URL for your mod, can be empty or point to a wiki or GitHub
+url="https://example.com"
+
+# Version of your mod
+version="1.0"
+
+# The dependency section is where you list other mods your mod depends on.
+dependencies = [
+  "required-after:forge@[47,)"  # Make sure the Forge version is specified correctly
+]
+
+# Other metadata like credits, authors, etc.
+authors = ["YourName"]
